@@ -1,0 +1,24 @@
+section.filters {
+  height: 70px;
+  width: 100%;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.filters > button {
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: inherit;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.filters > button:hover {
+  opacity: 0.9;
+}

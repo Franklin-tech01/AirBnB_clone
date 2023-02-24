@@ -1,0 +1,79 @@
+section.filters {
+  height: 70px;
+  width: 100%;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.filters > button {
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: inherit;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.filters > button:hover {
+  opacity: 0.9;
+}
+.filters > div:first-child {
+  border-right: solid 1px #dddddd;
+}
+.filters > .locations,
+.filters > .amenities {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 34px;
+  position: relative;
+}
+.filters > .locations:hover .popover,
+.filters > .amenities:hover .popover {
+  display: block;
+}
+
+.filters h3 {
+  font-weight: 600;
+}
+
+.filters h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.filters h4,
+.filters h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.filters .popover {
+  margin-top: 0;
+  z-index: 2;
+  background-color: #fafafa;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+  display: none;
+  padding: 30px;
+}
+.filters ul {
+  list-style-type: none;
+}
+
+.popover h2 {
+  margin: 0;
+  font-size: 16px;
+  border-bottom: 0;
+}

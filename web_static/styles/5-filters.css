@@ -1,0 +1,53 @@
+section.filters {
+  height: 70px;
+  width: 100%;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.filters > button {
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: inherit;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.filters > button:hover {
+  opacity: 0.9;
+}
+.filters > div:first-child {
+  border-right: solid 1px #dddddd;
+}
+.filters > .locations,
+.filters > .amenities {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 34px;
+  /* gap: 5px; */
+}
+
+.filters h3 {
+  font-weight: 600;
+}
+
+.filters h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.filters h4,
+.filters h3 {
+  margin: 0;
+  text-align: left;
+}

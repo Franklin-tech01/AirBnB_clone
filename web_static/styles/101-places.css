@@ -1,0 +1,121 @@
+section.places > h1,
+section.places article > h2 {
+  font-size: 30px;
+}
+
+section.places > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section.places article {
+  width: 390px;
+  padding: 10px;
+  margin: 20px;
+  border: #ff5a5f 1px solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+article .places_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.places_head > h2 {
+  text-align: center;
+  flex: 1;
+}
+
+article .places_head .price_by_night {
+  border: solid 4px #ff5a5f;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  margin-left: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article .information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  border-top: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd;
+}
+
+article .information > div {
+  width: 100px;
+  background-position: center 5px;
+  background-repeat: no-repeat;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.information .max_guest {
+  background-image: url('/web_static/images/icon_group.png');
+}
+
+.information .number_rooms {
+  background-image: url('/web_static/images/icon_bed.png');
+}
+
+.information .number_bathrooms {
+  background-image: url('/web_static/images/icon_bath.png');
+}
+
+article .amenities,
+article .reviews {
+  margin-top: 40px;
+}
+
+article h2.places_subtitle {
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+article ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.amenities li {
+  display: flex;
+  align-items: center;
+}
+
+.amenities_icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background-position: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.amenities_icon.wifi_icon {
+  background-image: url('/web_static/images/icon_wifi.png');
+}
+.amenities_icon.pf_icon {
+  background-image: url('/web_static/images/icon_pets.png');
+}
+.amenities_icon.tv_icon {
+  background-image: url('/web_static/images/icon_tv.png');
+}
+
+.reviews h3 {
+  font-size: 14px;
+}
+.reviews p {
+  font-size: 12px;
+}
